@@ -1,6 +1,5 @@
 //Login authentication using callback functions
 
-
 function Login(Validate) {
   let username = document.getElementById("Username").value;
   let password = document.getElementById("Password").value;
@@ -8,20 +7,18 @@ function Login(Validate) {
 } 
 function Validate(uname,pwd) {
       if (uname == "admin" && pwd == "12345") {
-          alert("Login credentials are valid");
+          alert("Valid Login Credinals..!");
           
           document.querySelector("form").action = "todo.html";
       }
       else {
-          alert("Invalid login");
+          alert("Please enter valid login detials !!");
       }
 }
 
 function LoginValidate() {
     Login(Validate);
 } 
-
-
 
 
 
@@ -60,7 +57,6 @@ function TableSet(obj){
 
 // Couting the checkboxes with promise 
 
-
     
 function checkcounter(){
     let checked= document.querySelectorAll('input[id="checking"]:checked').length;
@@ -81,7 +77,7 @@ function PromiseCount(val){
 
     Myprom.then(
         function(value){
-            alert("congrats "+value+"  Tasks have been Successfully Completed");
+            alert("congrats "+value+" Tasks have been Successfully Completed");
         },
         function (error){
             console.log(error+"completed");
