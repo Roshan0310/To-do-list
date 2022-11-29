@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+body{
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+  .navbar-light{
+   
+  background-color: yellow;
+  }
+  
+  .nav-item a{
+
+    margin-right: 7px;
+    text-decoration: none;
+    border: 1px solid blue;
+  
+    
+  }
+  
+
+  
+
+  /* Login form section */
+
+  .mainPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+  }
+
+  .loginForm{
+    background-color: blue;
+    width: 300px;
+    height: 380px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+  }
+
+  .loginForm h2{
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .infield{
+    height: 30px;
+    width: 100%;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .lbutton{
+    width: 70px;
+    border-radius: 5px;
+    margin-left: 60px;
+    height: 30px;
+    text-align: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  }
+
+  .LogBtn{
+    background-color: red;
+    color: #fff;
+    border: 1px solid blue;
+    padding: 5px;
+    
+  }
+
+  
+  .LogBtn:hover{
+    background-color: black;
+    color: #fff;
+  }
+
+  #TodoBtn{
+    margin-right: 10px;
+  }
+  
+ 
+  /* main section */
+  
+  
+
+ 
+  #TableList{
+    position: absolute;
+    top:8em;
+    left:17em;
+    width: 65%;
+    border-collapse: collapse;
+    border: 1.5px solid white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#TableList th{
+    border: 1px solid #fff;
+    padding: 12px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+#TableList td{
+    border: 1px solid #fff;
+    padding: 12px;
+    color: white;
+}
+#TableList tr:hover{
+background-color:slategray;
+}
